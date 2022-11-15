@@ -1,4 +1,5 @@
-# BcDa
+# Blockchain Adoption Decision Counselor
+A tool to decide if blockchain is a viable option
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
