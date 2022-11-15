@@ -1,0 +1,48 @@
+
+ 
+
+
+<div class="horizontal_center">
+  <div class="width">
+    <mat-accordion >
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Suitability
+          </mat-panel-title>
+          <mat-panel-description>
+            Is blockchain employable?
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>{{employable}}</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Usefulness
+          </mat-panel-title>
+          <mat-panel-description>
+            Is blockchain beneficial?
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>{{useful}}</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>Alternatives</mat-panel-title>
+          <mat-panel-description>Other solutions you may consider</mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>{{solutions}}</p>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>
+
+<div class="horizontal_center">
+  <div class="div_sep">
+    <button mat-raised-button color=primary (click)="onBack()">Back</button>
+  </div>
+  <div class="div_sep">
+    <button mat-raised-button color=primary (click)="onReset()">Reset</button>
+  </div>
+</div>

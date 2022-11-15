@@ -1,0 +1,43 @@
+
+<div class="horizontal_center">
+  <div>
+    <h2 class="div_sep">
+      {{questions[index-1].text}}
+    </h2>
+  </div>
+  <div>
+    <div *ngIf="noActive" class="div_sep">
+      <button  mat-flat-button color=accent>No</button>
+    </div>
+    <div *ngIf="!noActive" class="div_sep">
+      <button  mat-stroked-button color=primary (click)="onNo()">No</button>
+    </div>
+    <div *ngIf="yesActive" class="div_sep">
+      <button  mat-flat-button color=accent>Yes</button>
+    </div>
+    <div *ngIf="!yesActive" class="div_sep">
+      <button  mat-stroked-button color=primary (click)="onYes()">Yes</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="horizontal_center">
+  <mat-slider
+    thumbLabel="true"
+    step="1"
+    tickInterval="1"
+    min="1"
+    max="11"
+    [value]="index"
+    (input)="onSliderUpdate($event)">
+  </mat-slider>
+</div>
+<div class="horizontal_center">
+  <button mat-raised-button color=primary [disabled]="!resultActive" (click)="onResultClick()">Results</button>
+</div>
+
+
+
+
