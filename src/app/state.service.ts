@@ -70,14 +70,14 @@ export class StateService {
   }
   
   resultButtonClicked(){
-    this.navigate("/result")
+    this.router.navigateByUrl("result")
   }
   resetButtonClicked(){
     this.initialize()
-    this.navigate("/")
+    this.router.navigateByUrl("")
   }
   backButtonClicked(){
-    this.navigate("/")
+    this.router.navigateByUrl("")
   }
   
   
