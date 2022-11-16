@@ -1,5 +1,5 @@
 # Blockchain Adoption Decision Counselor
-A tool to decide if blockchain is a viable option. Use the tool online: https://github.com/vittoriocapocasale/BlockchainAdoptionDecisionCounselor/deployments/activity_log?environment=github-pages
+A tool to decide if blockchain is a viable option. Use the tool online: https://vittoriocapocasale.github.io/BlockchainAdoptionDecisionCounselor/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
