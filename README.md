@@ -1,5 +1,5 @@
 # Blockchain Adoption Decision Counselor
-A tool to decide if blockchain is a viable option. Use the tool online: https://vittoriocapocasale.github.io/BlockchainAdoptionDecisionCounselor/
+The Blockchain Adoption Decision Counselor is a tool for deciding on blockchain suitability. The tool does not require any prior blockchain technical knowledge. Use the tool online: https://vittoriocapocasale.github.io/BlockchainAdoptionDecisionCounselor/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
